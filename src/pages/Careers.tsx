@@ -122,16 +122,17 @@ const Animation = ({ children, delay = 0 }: { children: ReactNode; delay?: numbe
                       </p>
 
                       <div className="flex justify-end mt-auto">
-                        <Button
-                          size="sm"
-                          className="bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all"
-                          onClick={() =>
-                            window.open("https://forms.gle/YOUR_GOOGLE_FORM_LINK", "_blank")
-                          }
-                        >
-                          I’m Interested
-                        </Button>
-                      </div>
+  <Button
+    size="sm"
+    className="bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all"
+    onClick={() =>
+      window.open("https://forms.gle/Q57uyje5UJ8CK1Te7", "_blank")
+    }
+  >
+    I’m Interested
+  </Button>
+</div>
+
 
                     </CardContent>
                   </Card>
